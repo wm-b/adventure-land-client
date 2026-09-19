@@ -1,0 +1,27 @@
+{
+  "name": "adventure-land-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wm-b/adventure-land-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wm-b/adventure-land-client/issues"
+  },
+  "homepage": "https://github.com/wm-b/adventure-land-client#readme",
+  "description": "",
+  "dependencies": {
+    "alclient": "^0.26.4",
+    "ts-node": "^10.9.2",
+    "typed-adventureland": "^0.0.57",
+    "typescript": "^5.7.0"
+  }
+}
